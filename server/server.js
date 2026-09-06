@@ -16,7 +16,13 @@ const app = express();
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://product-admin-panel-g93s.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
+app.options(/.*/, cors());
 app.use(express.json());
 
 
