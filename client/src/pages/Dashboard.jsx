@@ -418,7 +418,7 @@ const Dashboard = () => {
                     >
                       <td className="p-3">
                         <img
-                          src={`https://product-management-system-zl7f.onrender.com/uploads/${product.image}`}
+                          src={`https://product-management-system-crj6.onrender.com/uploads/${product.image}`}
                           alt={product.name}
                           className="w-12 h-12 object-cover rounded-lg border"
                         />
@@ -504,7 +504,7 @@ const Dashboard = () => {
                 {/* Left Side */}
                 <div className="flex items-center gap-4">
                   <img
-                    src={`https://product-management-system-zl7f.onrender.com/uploads/${item.image}`}
+                    src={`https://product-management-system-crj6.onrender.com/uploads/${item.image}`}
                     alt={item.name}
                     className="w-14 h-14 object-cover rounded-lg border"
                   />
