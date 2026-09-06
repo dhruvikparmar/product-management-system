@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@media print {
+
+  body * {
+    visibility: hidden;
+  }
+
+  #estimate-bill,
+  #estimate-bill * {
+    visibility: visible;
+  }
+
+  #estimate-bill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .print-btn {
+    display: none !important;
+  }
+
+}
+
+@media print {
+
+  body * {
+    visibility: hidden;
+  }
+
+  #sales-bill,
+  #sales-bill * {
+    visibility: visible;
+  }
+
+  #sales-bill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+  }
+
+  .print-btn {
+    display: none !important;
+  }
+
+}
