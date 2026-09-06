@@ -374,7 +374,7 @@ const Sales = () => {
                                         className="flex items-center gap-3 p-3 hover:bg-gray-100 cursor-pointer border-b"
                                     >
                                         <img
-                                            src={`http://localhost:5000/uploads/${product.image}`}
+                                            src={`https://product-management-system-zl7f.onrender.com/uploads/${product.image}`}
                                             alt=""
                                             className="w-10 h-10 rounded object-cover"
                                         />
@@ -487,7 +487,7 @@ const Sales = () => {
                                         :
 
                                         <img
-                                            src={`http://localhost:5000/uploads/${item.image}`}
+                                            src={`https://product-management-system-zl7f.onrender.com/uploads/${item.image}`}
                                             alt=""
                                             className="w-24 h-24 object-cover rounded-lg border"
                                         />

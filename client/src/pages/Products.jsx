@@ -106,7 +106,7 @@ const Products = () => {
                       <img
                         src={
                           product.image
-                            ? `http://localhost:5000/uploads/${product.image}`
+                            ? `https://product-management-system-zl7f.onrender.com/uploads/${product.image}`
                             : "https://via.placeholder.com/60"
                         }
                         alt={product.name}

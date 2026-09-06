@@ -90,7 +90,7 @@ const PurchaseHistory = () => {
                                     <img
                                         src={
                                             item.image
-                                                ? `http://localhost:5000/uploads/${item.image}`
+                                                ? `https://product-management-system-zl7f.onrender.com/uploads/${item.image}`
                                                 : "https://via.placeholder.com/150"
                                         }
                                         alt={item.productName}

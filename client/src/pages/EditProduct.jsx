@@ -96,7 +96,7 @@ const EditProduct = () => {
                         src={
                             formData.newImage
                                 ? URL.createObjectURL(formData.newImage)
-                                : `http://localhost:5000/uploads/${formData.image}`
+                                : `https://product-management-system-zl7f.onrender.com/uploads/${formData.image}`
                         }
                         alt={formData.name}
                         className="w-40 h-40 object-cover rounded-lg border"
